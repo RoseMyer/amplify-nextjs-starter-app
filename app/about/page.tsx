@@ -6,7 +6,7 @@ export default function Home() {
     <main className={styles.main}>
       <div className={styles.description}>
         <p>
-          Get going by editing&nbsp;
+          About&nbsp;
           <code className={styles.code}>app/page.tsx</code>
         </p>
       </div>
@@ -32,15 +32,15 @@ export default function Home() {
 
       <div className={styles.grid}>
         <a
-          href="/about"
+          href="https://docs.amplify.aws/gen2/"
           className={styles.card}
           target="_blank"
           rel="noopener noreferrer"
         >
           <h2>
-            About <span>-&gt;</span>
+            Docs <span>-&gt;</span>
           </h2>
-          <p>Learn all about me.</p>
+          <p>Review documentation for Amplify's code-first DX (Gen 2).</p>
         </a>
 
         <a
