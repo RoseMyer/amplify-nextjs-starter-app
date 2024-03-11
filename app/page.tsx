@@ -32,7 +32,7 @@ export default function Home() {
 
       <div className={styles.grid}>
         <a
-          href="/about"
+          href="/MyResume"
           className={styles.card}
         
           rel="noopener noreferrer"
