@@ -3,21 +3,30 @@ import styles from './page.module.css'
 
 export default function Resume() {
   return (
+  <main>
+    
     <div>
       <h1>My Resume</h1>
       <p>Content of my resume...</p>
+
+    </div>
+
+ // Return back to homepage reference
+    <div>
       <a
-          href="https://docs.amplify.aws/gen2/start/quickstart/"
+          href="/index"
           className={styles.card}
           target="_blank"
           rel="noopener noreferrer"
         >
           <h2>
-            Quickstart <span>-&gt;</span>
+            Homepage <span>-&gt;</span>
           </h2>
-          <p>Follow a tutorial to build a fullstack app with Amplify Gen 2.</p>
+          <p>Click back to the homepage.</p>
         </a>
+    </div>
 
+    <div>
         <a
           href="https://docs.amplify.aws/gen2/build-a-backend/auth/set-up-auth/"
           className={styles.card}
@@ -31,6 +40,9 @@ export default function Resume() {
         </a>
 
     </div>
+  
+  </main>
+
   );
 }
 
