@@ -1,13 +1,13 @@
-// "use client"
+"use client"
 import Image from 'next/image'
 import styles from './page.module.css'
 
 export default function Home() {
   const places = [
-    { src: '/image/places/place1.jpeg', alt: 'Colorado' },
-    { src: '/image/places/place2.jpeg', alt: 'Pennsylvania' },
-    { src: '/image/places/place3.jpeg', alt: 'London' },
-    { src: '/image/places/place4.jpeg', alt: 'Virginia'}
+    { src: '/images/places/place1.jpeg', alt: 'Colorado' },
+    { src: '/images/places/place2.jpeg', alt: 'Pennsylvania' },
+    { src: '/images/places/place3.jpeg', alt: 'London' },
+    { src: '/images/places/place4.jpeg', alt: 'Virginia'}
   ]
 
   return (

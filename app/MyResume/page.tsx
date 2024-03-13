@@ -33,7 +33,7 @@ export default function Resume() {
           <h1>My Resume </h1>
           <p>Content of my resume...</p> <br/> <br/> 
 
-          <Image src="/image/resume-photo.jpeg" alt="Resume Photo" width={250} height={200} /> <br/> <br/> 
+          <Image src="/images/resume-photo.jpeg" alt="Resume Photo" width={250} height={200} /> <br/> <br/> 
 
           <h3> Education and Major </h3> <br/> 
           <p> Borough of Manhattan Community College</p> 
