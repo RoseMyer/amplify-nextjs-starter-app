@@ -1,3 +1,4 @@
+// "use client"
 import Image from 'next/image'
 import styles from './page.module.css'
 
@@ -6,6 +7,7 @@ export default function Home() {
     { src: '/image/places/place1.jpeg', alt: 'Colorado' },
     { src: '/image/places/place2.jpeg', alt: 'Pennsylvania' },
     { src: '/image/places/place3.jpeg', alt: 'London' },
+    { src: '/image/places/place4.jpeg', alt: 'Virginia'}
   ]
 
   return (
@@ -38,7 +40,7 @@ export default function Home() {
       <div className={styles.slider}>
         {places.map((place, index) => (
           <div key={index} className={styles.slide}>
-          <Image src={place.src} alt={place.alt} width={200} height={200} objectFit="cover" />
+          <Image src={place.src} alt={place.alt} width={200} height={200} />
           </div>
         ))}
       </div>
