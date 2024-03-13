@@ -7,6 +7,21 @@
   min-height: 100vh;
 }
 
+.container {
+  display: flex; /* Use flexbox to align children */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically if needed */
+  height: 100vh; /* Full viewport height */
+  padding: 0 20px; /* Add horizontal padding */
+  margin-top: 5%;
+}
+
+.content {
+  flex: 1; /* Allows the content to grow */
+  max-width: 600px; /* Maximum width of the column */
+  margin: 0 auto; /* Adds margin on the top and bottom, auto centers horizontally */
+}
+
 .description {
   display: inherit;
   justify-content: inherit;

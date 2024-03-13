@@ -6,8 +6,22 @@ export default function AboutBMCC() {
   <main>
 
     <div>
-      <h1>About BMCC</h1>
-      <p>Information about BMCC...</p>
+    <h3> Education and Major </h3> <br/> 
+      <p> Borough of Manhattan Community College</p> 
+      <p> Computer Science (A.S) </p> <br/>
+
+      <h3> Current Classes: </h3> <br/>
+      <p> CSC 350: Software development</p> 
+      <p> CIS 345: Telecommuncation Network</p>
+      <p> FNB 250: Money and Banking  </p>
+      <p> MAT 209: Statistics </p> <br/>
+
+      <h3> Extra Curriculars </h3> <br/>
+      <p> Achievers Program</p> 
+      <p> Finance and Banking Club</p>
+      <p> PTO Nest+M Member</p>
+      <p> Brazilian Jiu-Jitsu </p><br/>
+
     </div>
 
     <div>

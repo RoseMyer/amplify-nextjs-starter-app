@@ -7,6 +7,33 @@
   min-height: 100vh;
 }
 
+.facts {
+  border: 1px solid #ccc; /* Replace with the color of your choice */
+  padding: 20px; /* Adjust the padding to your liking */
+  margin: 20px 0; /* This adds vertical spacing and centers the box horizontally */
+  background: #db1717; /* Replace with any color or keep it white for the background */
+  border-radius: 10px; /* Optional: for rounded corners */
+  box-shadow: 0 2px 4px rgba(18, 17, 17, 0.1); /* Optional: for a subtle shadow effect */
+}
+.facts p:last-child {
+  padding: 0 10px; /* Adds padding to the last item */
+}
+
+.sliderContainer {
+  overflow-x: auto; /* Enables horizontal scrolling */
+  white-space: nowrap; /* Ensures that all slides are in a single line */
+  padding: 20px 0; /* Add some vertical padding */
+}
+
+.slider {
+  display: inline-flex; /* Aligns children images horizontally and allows inline behavior */
+}
+
+.slide {
+  display: inline-block; /* Inline-block for individual slides */
+  margin-right: 20px; /* Add some space between the images */
+}
+
 .description {
   display: inherit;
   justify-content: inherit;
