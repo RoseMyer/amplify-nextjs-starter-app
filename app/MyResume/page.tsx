@@ -1,26 +1,26 @@
 'use client'
-import {useState, useEffect} from 'react'
+// import {useState, useEffect} from 'react'
 import Image from 'next/image'
 import styles from './MyResume.module.css'
 
 export default function Resume() {
 
-  const [message, setMessage] = useState("hello from client side")
+  // const [message, setMessage] = useState("hello from client side")
 
-  const getServerMessage = async () => {
-    try {
-      const response = await (await fetch('/api/hello')).json()
-      console.log(response)
-      setMessage(response)
-    } catch (error) {
-      console.error(`error is ${error}`)
-      setMessage("something went horribly wrong!")
-    }
-  }
+  // const getServerMessage = async () => {
+  //   try {
+  //     const response = await (await fetch('/api/hello')).json()
+  //     console.log(response)
+  //     setMessage(response)
+  //   } catch (error) {
+  //     console.error(`error is ${error}`)
+  //     setMessage("something went horribly wrong!")
+  //   }
+  // }
  
-  useEffect(() => {
-    getServerMessage()
-  },[])
+  // useEffect(() => {
+  //   getServerMessage()
+  // },[])
   return (
   <main>
     <div className={styles.container}>
@@ -28,7 +28,7 @@ export default function Resume() {
         {/* Your content here */}
         <p>This is a centered column with flexible margins.</p>
         <div>
-        <p>also this should appear.. {message}</p>
+        {/* <p>also this should appear.. {message}</p> */}
           <br/> <br/>
           <h1>My Resume </h1>
           <p>Content of my resume...</p> <br/> <br/> 

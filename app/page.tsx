@@ -40,7 +40,7 @@ export default function Home() {
       <div className={styles.slider}>
         {places.map((place, index) => (
           <div key={index} className={styles.slide}>
-          <Image src={place.src} alt={place.alt} width={200} height={200} />
+          <Image src={place.src} alt={place.alt} width={200} height={200} priority={true}/>
           </div>
         ))}
       </div>
