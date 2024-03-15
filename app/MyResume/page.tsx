@@ -89,7 +89,7 @@ export default function Resume() {
 
 
     <div className={styles.grid}>
-      <a href="/" className={styles.card} target="_blank" rel="noopener noreferrer">
+      <a href="/" className={styles.card} rel="noopener noreferrer">
         <h2>Homepage <span>-&gt;</span></h2>
         <p>Click back to the homepage.</p>
         </a>
