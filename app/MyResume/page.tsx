@@ -28,7 +28,7 @@ export default function Resume() {
         <div>
         
         <div className={styles.headerContainer}>
-          <h1 className={styles.headerTitle}>Rose Myer</h1>
+          <br/><br/><h1 className={styles.headerTitle}>Rose Myer</h1>
         </div><br/><br/>
 
          <div className={styles.circleImage}>
@@ -81,11 +81,11 @@ export default function Resume() {
           <p> BNY Mellon Start Up Mentorship</p>
           <p> NYU School of AI</p>
           <p> BMCC Data Analytics program</p>
-          <p> Cornell Tech Break Through AI (Summer 2024)</p>
+          <p> Cornell Tech Break Through AI (Summer 2024)</p><br/> <br/> <br/> 
         </div>
           
         </div>
-      </div> <br/> <br/>
+      </div> <br/> <br/> <br/> <br/><br/>
 
 
     <div className={styles.grid}>
