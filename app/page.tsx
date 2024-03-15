@@ -23,18 +23,19 @@ export default function Home() {
     </div>
 
 {/* FACTS */}
-    <div>
-      <p> Favorite quote: "Sed omnia præclara tam difficilia quam rara sunt."</p>
-      <p> Favorite animal: Tiger </p>
-      <p> Favorite book: </p>
-      <p> Favorite place in NYC: Brooklyn Heights </p>
-      <p> Favorite food to cook: Steak and pies</p>
-      <p> Favorite physical activities: Swimming and hiking</p><br/>
-    </div>
+  <div className={styles.facts}>
+    <p>Favorite quote: "Sed omnia præclara tam difficilia quam rara sunt."</p>
+    <p>Favorite animal: Tiger</p>
+    <p>Favorite Book: Zero to One by Peter Thiel</p>
+    <p>Favorite place in NYC: Brooklyn Heights</p>
+    <p>Favorite foods to cook: Steak and pies</p>
+   <p>Favorite physical activities: Swimming and hiking</p>
+  </div>
 
     <div>
       <p> When I am not being a mom or a student, I am learning about learning about new techonology and businesses, reading about history, cooking, teaching my kids. </p>
     </div>
+
 
     <div className={styles.sliderContainer}>
       <div className={styles.slider}>

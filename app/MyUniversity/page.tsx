@@ -8,7 +8,8 @@ export default function AboutBMCC() {
     <div>
     <h3> Education and Major </h3> <br/> 
       <p> Borough of Manhattan Community College</p> 
-      <p> Computer Science (A.S) </p> <br/>
+      <p> Computer Science (A.S) </p> 
+      <p>199 Chambers Street, New York, NY 10007</p><br/>
 
       <h3> Current Classes: </h3> <br/>
       <p> CSC 350: Software development</p> 
@@ -23,6 +24,8 @@ export default function AboutBMCC() {
       <p> Brazilian Jiu-Jitsu </p><br/>
 
     </div>
+
+    
 
     <div>
 

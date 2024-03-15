@@ -3,17 +3,19 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 6rem;
+  padding: 5rem;
   min-height: 100vh;
+  background-color: rgb(254, 155, 33); /* Change to orange background */
+  border: 30px solid #137e7d; /* Add dark blue border */
 }
 
 .facts {
-  border: 1px solid #ccc; /* Replace with the color of your choice */
-  padding: 20px; /* Adjust the padding to your liking */
-  margin: 20px 0; /* This adds vertical spacing and centers the box horizontally */
-  background: #db1717; /* Replace with any color or keep it white for the background */
-  border-radius: 10px; /* Optional: for rounded corners */
-  box-shadow: 0 2px 4px rgba(18, 17, 17, 0.1); /* Optional: for a subtle shadow effect */
+  border: 1px solid #ccc; /* Keep or adjust the border color as you prefer */
+  padding: 20px;
+  margin: 20px 0;
+  background: #137e7d; /* Keep or change the background color as you prefer */
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(18, 17, 17, 0.1);
 }
 .facts p:last-child {
   padding: 0 10px; /* Adds padding to the last item */
@@ -68,15 +70,19 @@
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(4, minmax(25%, auto));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Adjust minmax values as needed */
+  gap: 1rem; /* Adjust the gap between cards as needed */
+  justify-content: center; /* This will center the cards in the grid */
+  align-items: center; /* This will vertically align cards if they are of different heights */
+  padding: 1rem; /* This adds padding inside the grid container */
   max-width: 100%;
-  width: var(--max-width);
 }
 
 .card {
   padding: 1rem 1.2rem;
   border-radius: var(--border-radius);
   background: rgba(var(--card-rgb), 0);
+  background: #920896;
   border: 1px solid rgba(var(--card-border-rgb), 0);
   transition: background 200ms, border 200ms, box-shadow 200ms;
 }
