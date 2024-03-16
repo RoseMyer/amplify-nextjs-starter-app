@@ -5,7 +5,7 @@
   align-items: center;
   padding: 5rem;
   min-height: 100vh;
-  background-color: #0c000f;
+  background-color: #041756;
 }
 
 .description {
@@ -27,6 +27,7 @@
 }
 
 .imageWrapper {
+  border-radius: 10px ;
  
   /* Adjust the width and height as needed, or remove them to use the size defined in JSX */
 }

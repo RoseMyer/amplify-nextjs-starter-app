@@ -3,7 +3,7 @@ import styles from './MyUniversity.module.css'
 
 export default function AboutBMCC() {
   return (
-  <main>
+  <main className={styles.main}>
     <br/>
     <div className={styles.topSection}> {/* New class for the top section */} 
       <div className={styles.imageWrapper}> {/* Wrapper for image */}
@@ -45,25 +45,19 @@ export default function AboutBMCC() {
       <p> Brazilian Jiu-Jitsu </p><br/>
 
     </div>
-
-    
-
-    <div className={styles.grid}> 
-
-      {/* Return back to homepage reference */}
-      <a href="/" className={styles.card} rel="noopener noreferrer">
-        <h2>Homepage <span>-&gt;</span></h2>
-        <p>Click back to the homepage.</p>
-      </a>
-
-      <a href="/MyResume" className={styles.card} rel="noopener noreferrer">
-        <h2>My Resume <span>-&gt;</span></h2>
-        <p>Res Gestae.</p>
-      </a>
-
     </div>
-    </div>
+  <div className={styles.grid}> 
+    {/* Return back to homepage reference */}
+    <a href="/" className={styles.card} rel="noopener noreferrer">
+      <h2>Homepage <span>-&gt;</span></h2>
+      <p>Click back to the homepage.</p>
+    </a>
+    <a href="/MyResume" className={styles.card} rel="noopener noreferrer">
+      <h2>My Resume <span>-&gt;</span></h2>
+      <p>Res Gestae.</p>
+    </a>
 
+  </div>
   </main>
   
   );
