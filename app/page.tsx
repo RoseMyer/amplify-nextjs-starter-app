@@ -37,7 +37,7 @@ export default function Home() {
       </div>
       <div className={styles.infoBox}>
         <h3>Academic Interests</h3>
-        <p>I'm fascinated by the research on how AI integrates with behavioral economics, biology, and geology. I'm keen to explore the benefits and potential drawbacks of machine learning on society</p>
+        <p>I am intrigued by the fusion of artificial intelligence with disciplines such as behavioral economics, biology, and geology for material science. I am currently exploring machine learning's societal advantages and concerns. Highly recommend Superintelligence by Nick Bostrom if you are interested. </p>
       </div>
     </div>
 
@@ -48,7 +48,8 @@ export default function Home() {
       <p>Favorite Book: Zero to One by Peter Thiel</p>
       <p>Favorite place in NYC: Brooklyn Heights</p>
       <p>Favorite foods to cook: Steak and pies</p>
-      <p>Favorite physical activities: Swimming and hiking</p>
+      <p>Favorite activities: Swimming and hiking</p> 
+      <p></p>
     </div>
 
     
