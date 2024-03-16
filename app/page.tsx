@@ -25,11 +25,11 @@ export default function Home() {
     <div className={styles.infoSection}>
       <div className={styles.infoBox}>
         <h3>About Me</h3>
-        <p>Hi there! I'm Rose Myer, currently studying at BMCC. I'm a mom of two, a wife, and owner of a silly dog. Originally from Russia, I spent the majority of my life in Philadelphia.</p>
+        <p>Hi there! I'm Rose Myer, currently studying at BMCC. I'm a mom of two, a wife, and owner of a silly dog. Originally from Russia, I spent the majority of my life in Philadelphia. Today is my birthday. After class, I am going to spend the rest of the day eating cake.</p>
       </div>
       <div className={styles.infoBox}>
         <h3>Professional Goals</h3>
-        <p>I aim to combine computer science with key areas like finance, business, mining, energy, and healthcare to create innovative solutions. </p>
+        <p>I aspire to integrate computer science with essential domains such as finance and business to improve predictive models and risk management. My goal is to work in fintech sector and contribute to the development of groundbreaking solutions with a collaborative team.</p>
       </div>
       <div className={styles.infoBox}>
         <h3>Personal Interests</h3>
