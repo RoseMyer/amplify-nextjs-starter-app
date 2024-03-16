@@ -16,9 +16,11 @@ export default function AboutBMCC() {
         />
       </div>
       <div className={styles.infoBox}> {/* New class for the info box */}
-        <h4>Borough of Manhattan Community College</h4>
+        <h4>Borough of Manhattan Community College</h4> <br/>
         <p>199 Chambers Street, New York, NY 10007</p>
-        <p> Founded in 1963, apart of the CUNY schools.</p>
+        <p> Located in New York City, Borough of Manhattan Community College (BMCC) is an integral part of the CUNY system, offering a range of associate degrees and certificate programs. Established in 1963, BMCC combines affordable education with a rich diversity, preparing students for further studies and varied careers in a supportive, dynamic environment.</p>
+        <p>BMCC offers many opportunities to engage with the community through internships, clubs, research, and career development</p>
+        <p> Start here. Go anywhere!</p>
         {/* Add more information here */}
       </div>
     </div>
