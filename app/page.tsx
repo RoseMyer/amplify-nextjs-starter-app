@@ -25,19 +25,19 @@ export default function Home() {
     <div className={styles.infoSection}>
       <div className={styles.infoBox}>
         <h3>About Me</h3>
-        <p>Hello! My name is Rose Myer, I am a student at BMCC, mother of two, wife, and dog owner. I am Russian born, but spend most of my life growing up in Philadelphia.</p>
+        <p>Hi there! I'm Rose Myer, currently studying at BMCC. I'm a mom of two, a wife, and owner of a silly dog. Originally from Russia, I spent the majority of my life in Philadelphia.</p>
       </div>
       <div className={styles.infoBox}>
         <h3>Professional Goals</h3>
-        <p>My career interests are in the feild of finance, business, mining, energy, and healthcare. </p>
+        <p>I aim to combine computer science with key areas like finance, business, mining, energy, and healthcare to create innovative solutions. </p>
       </div>
       <div className={styles.infoBox}>
         <h3>Personal Interests</h3>
-        <p>My interests include history, cooking, reading up on new technology and businesses. When I have a chance to leave the city, I love idenitfying different plants and mushrooms. </p>
+        <p>My interests span reading various books, from biographies to historical accounts and theories of evolution. I'm also enjoy following technological innovations and their practical applications. For leisure, I enjoy culinary experiments, identifying plants, and visiting places known for their historical significance. </p>
       </div>
       <div className={styles.infoBox}>
         <h3>Academic Interests</h3>
-        <p>My academic interests include the way inwhich AI can be used for behavioral economics, biology, and geology. </p>
+        <p>I'm fascinated by the research on how AI integrates with behavioral economics, biology, and geology. I'm keen to explore the benefits and potential drawbacks of machine learning on society</p>
       </div>
     </div>
 
@@ -48,7 +48,7 @@ export default function Home() {
       <p>Favorite Book: Zero to One by Peter Thiel</p>
       <p>Favorite place in NYC: Brooklyn Heights</p>
       <p>Favorite foods to cook: Steak and pies</p>
-    <p>Favorite physical activities: Swimming and hiking</p>
+      <p>Favorite physical activities: Swimming and hiking</p>
     </div>
 
     
