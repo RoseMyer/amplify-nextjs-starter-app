@@ -59,6 +59,11 @@ export default function AboutBMCC() {
       <p>Res Gestae.</p>
     </a>
 
+    <a href="https://www.bmcc.cuny.edu/" className={styles.card} rel="noopener noreferrer">
+      <h2>BMCC <span>-&gt;</span></h2>
+      <p>Learn more about my university!</p>
+    </a>
+
   </div>
   </main>
   
