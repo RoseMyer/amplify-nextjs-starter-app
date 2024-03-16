@@ -4,9 +4,11 @@ import styles from './MyUniversity.module.css'
 export default function AboutBMCC() {
   return (
   <main>
-
-    <div>
-    <h3> Education and Major </h3> <br/> 
+    <div className={styles.content}>
+    <div className={styles.container}>
+      
+      <br/> <br/>
+      <h3> Education and Major </h3> <br/> 
       <p> Borough of Manhattan Community College</p> 
       <p> Computer Science (A.S) </p> 
       <p>199 Chambers Street, New York, NY 10007</p><br/>
@@ -27,7 +29,7 @@ export default function AboutBMCC() {
 
     
 
-    <div>
+    <div className={styles.grid}> 
 
       {/* Return back to homepage reference */}
       <a href="/" className={styles.card} rel="noopener noreferrer">
@@ -40,6 +42,7 @@ export default function AboutBMCC() {
         <p>Res Gestae.</p>
       </a>
 
+    </div>
     </div>
 
   </main>
