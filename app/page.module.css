@@ -21,6 +21,23 @@
   padding: 0 10px; /* Adds padding to the last item */
 }
 
+.infoSection {
+  display: flex;
+  justify-content: space-around; /* This spreads the boxes evenly across the container */
+  align-items: flex-start; /* Aligns items to the top */
+  gap: 20px; /* Spacing between boxes */
+}
+
+.infoBox {
+  background-color: #b583a8; /* color of box */
+  padding: 20px;
+  border-radius: 10px;
+  width: 30%; /* Adjust the width as needed */
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.2); /* Optional for depth */
+  font-family: 'Arial', sans-serif;
+  color:#041f52
+}
+
 .sliderContainer {
   overflow-x: auto; /* Enables horizontal scrolling */
   white-space: nowrap; /* Ensures that all slides are in a single line */

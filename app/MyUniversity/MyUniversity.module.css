@@ -33,7 +33,7 @@
 }
 .infoBox {
   background-color: #995d02; /* Background color for the info box */
-  padding: 18px; /* Padding inside the info box */
+  padding: 17px; /* Padding inside the info box */
   border-radius: 10px; /* Rounded corners for the info box */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
   border: 2px solid #ffffff;
