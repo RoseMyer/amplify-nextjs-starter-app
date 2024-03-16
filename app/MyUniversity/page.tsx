@@ -6,7 +6,8 @@ export default function AboutBMCC() {
   <main>
     <div className={styles.content}>
     <div className={styles.container}>
-      
+
+
       <br/> <br/>
       <h3> Education and Major </h3> <br/> 
       <p> Borough of Manhattan Community College</p> 

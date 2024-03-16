@@ -52,28 +52,28 @@ export default function Resume() {
           <p> 2018 - present</p> <br/>
 
           <ul className="bulleted-list">
-            <li>I worked as a post production coordinator dealing with in-house affairs </li>
-            <li>Working closing with the eetive producter to ensure projects on different teams the dealine.</li>
-            <li>Manage, updating, and securing client information in database. </li>
-            <li>Events coordinator, managing sechudling, catering, and other tasks for social events hosted by the Artery.</li>
-          </ul> <br/>
+            <li>I worked as a post-production coordinator dealing with in-house affairs.</li>
+            <li>Worked closely with the executive producer to ensure projects across different teams met their deadlines.</li>
+            <li>Managed, updated, and secured client information in the database.</li>
+            <li>Event coordinator, managing scheduling, catering, and other tasks for social events hosted by The Artery.</li>
+          </ul>
 
 
-          <h4> Tutto Il Gerino</h4>
+          <h4> Tutto Il Giorno</h4>
           <p> 2017</p><br/>
           <ul className="bulleted-list">
-            <li>Worked as a waitress for high end resturan</li>
-            <li>Aquring through understanding for meal preparation and wine paring with dishes of southern Italy.</li>
-            <li>Stock inventory of wines and spirits. </li>
-            <li>Bar preparation for dinner rush.</li>
+            <li>Worked as a waitress for a high-end restaurant.</li>
+            <li>Acquired thorough understanding of meal preparation and wine pairing with dishes from southern Italy.</li>
+            <li>Managed stock inventory of wines and spirits.</li>
+            <li>Assisted in bar preparation for the dinner rush.</li>
           </ul><br/>
           
           <h2> Projects </h2> <br/>
           <h4>TSLA stock Tweet analysis </h4>
           <ul className="bulleted-list">
-            <li>Pulling tweets related to tesla stock to see if there is a coorlation with stock price with word sentiment analysis.</li>
-            <li>Used LSTM (long short term memeory) for machine learning so nerualnet would not forget previous sentiment during its training.</li>
-            <li>The conclusion was not alpha, meaning there was not relationship between tweets and stock prices.</li>
+            <li>Analyzed tweets related to Tesla stock to determine if there was a correlation with stock price and word sentiment analysis.</li>
+            <li>Used LSTM (Long Short-Term Memory) for machine learning so the neural network would not forget previous sentiment during its training.</li>
+            <li>The conclusion was that there was no alpha, indicating no relationship between tweets and stock prices.</li>
           </ul><br/>
           
 
